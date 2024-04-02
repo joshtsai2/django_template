@@ -18,7 +18,7 @@ To run this server, use `python manage.py runserver`.
 The port and IP of the server can be changed using a command line argument like so: `python manage.py runserver 8080` or `python manage.py runserver 0.0.0.0:8000`
 
 
-# Applications in Django
+## Applications
 
 To create an application within this project, run `python manage.py startapp <your-app-name>`. In this template, there is already an application created called `polls` which will
 be used as an example.
@@ -39,5 +39,6 @@ the application's urls.
 
 Examples for adding API endpoints to your application and your project are both in this template in `polls/urls.py` and `mysite/urls.py`.
 
+## Models
+Django also has database support. The guide listed here does a good job of getting you started with using a database in Django: https://docs.djangoproject.com/en/5.0/intro/tutorial02/
 
-# Use this link: https://docs.djangoproject.com/en/5.0/intro/tutorial02/ if you wish to add models to your project.
