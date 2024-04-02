@@ -1,10 +1,13 @@
-# This will be a helpful template for anyone who wants a kickstart to creating their own Django backend.
-# This Django guide is largely helpful for understanding where the code has come from: https://docs.djangoproject.com/en/5.0/intro/tutorial01/
+## This will be a helpful template for anyone who wants a kickstart to creating their own Django backend.
+This Django guide is largely helpful for understanding where the code has come from: https://docs.djangoproject.com/en/5.0/intro/tutorial01/
 
 First, it will be useful to set up a virtual environment for your project. This will compartmentalize any packages/dependencies of your project and will keep them
 separate from your other workspaces.
 
-Install virtualenv (or any other virtual environment tool) with pip. If using virtualenv, run python<version> -m venv <your-env-name-here>.
+Install virtualenv (or any other virtual environment tool) with pip. If using virtualenv, run 
+```bash
+python<version> -m venv <your-env-name-here>
+```
 
 To activate your virtual environment, run `source <your-env-name>/bin/activate`. You will need to activate your virtual environment before installing any packages you wish
 to use in your project.
